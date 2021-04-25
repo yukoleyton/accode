@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include ('partials/head.html') %>
+</head>
+<body>
+    <%- include ('partials/navigation.html') %>
+    <div class="container p-5">
+        <div class="row">
+          <div class="col-sm-4 offset-md-4">
+            <div class="card animate__animated animate__flipInY">
+              <div class="card-header bg-light text-dark text-center">
+                <h3>Contáctame</h3>
+               <ul>
+
+                <li>Si necesitas una solución tecnológica para tu negocio</li>
+                <li>Si necesitas experiencia y trabajo como programador</li>
+                <li>Si crees que la tecnologia deberia ser libre </li>
+               </ul>
+                
+              
+              </div>
+              <div class="card-body">
+                <form action="">
+                  <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="" cols="30" rows="10" placeholder="Message"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button class="btn btn-primary btn-block">
+                      Acepto vender mi alma a ACCODIGO
+                    </button>
+                  </div>
+                </form>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+    <%- include ('partials/footer.html') %>
+</body>
+</html>
